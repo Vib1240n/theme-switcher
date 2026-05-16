@@ -1,0 +1,86 @@
+[meta]
+name = "apple"
+
+[radius]
+container       = 16
+container_pill  = 28
+section         = 16
+card            = 16
+row             = 12
+input           = 12
+icon            = 10
+badge           = 6
+small           = 4
+circle          = 50    # used as a percentage in templates
+
+[sizing]
+border_width    = 1
+font_base       = 14
+font_bar        = 16
+font_small      = 11
+font_tiny       = 10
+font_section    = 12
+icon_box        = 48
+font_family     = "SF Pro Text"
+font_family_mono = "JetBrainsMono Nerd Font"
+font_family_bar = "SF Pro Display"
+
+# ---------------------------------------------------------------------------
+# Opacities are mode-aware. The renderer picks .dark or .light based on
+# palette.meta.dark and flattens to opacity.<key> for templates.
+# ---------------------------------------------------------------------------
+
+[opacity.dark]
+# Backgrounds
+bg              = 0.60   # was 0.85
+bg_container    = 0.68   # was 0.92
+bg_widget       = 0.40   # was 0.65
+bg_popup        = 0.50    # rw popups, osd
+bg_elevated     = 0.50   # inputs, buttons (resting state)
+border          = 0.30
+input           = 0.60
+section         = 0.40   # inner sections (media-section, app-row)
+
+# State tints
+hover           = 0.08   # accent applied to hover
+selected        = 0.15   # accent applied to selected
+
+# Foreground levels
+fg_strong       = 1.00
+fg_normal       = 0.75
+fg_muted        = 0.55
+fg_dim          = 0.40
+fg_faint        = 0.30
+
+# Shadow
+shadow          = 0.40
+
+[opacity.light]
+# Light palettes need more solid backgrounds so dark text stays legible.
+bg              = 0.95
+bg_container    = 0.98
+bg_widget       = 0.88
+bg_popup        = 0.92
+bg_elevated     = 0.70
+border          = 0.40
+input           = 0.80
+section         = 0.60
+
+hover           = 0.12
+selected        = 0.22
+
+# Light themes need lower fg opacities (text is dark; full opacity on dim text becomes overpowering)
+fg_strong       = 1.00
+fg_normal       = 0.85
+fg_muted        = 0.65
+fg_dim          = 0.50
+fg_faint        = 0.40
+
+shadow          = 0.20
+
+[layer]
+ags-bar             = 0.3
+cliphist-gui        = 0.5
+launch-gui          = 0.3
+rust-widgets        = 0.05
+rust-widgets-popup  = 0.075

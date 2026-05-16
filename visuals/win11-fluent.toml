@@ -1,0 +1,69 @@
+[meta]
+name = "win11-fluent"
+
+[radius]
+container       = 8
+container_pill  = 20
+section         = 8
+card            = 8
+row             = 4
+input           = 4
+icon            = 4
+badge           = 4
+small           = 2
+circle          = 50
+
+[sizing]
+border_width    = 1
+font_base       = 13
+font_bar        = 14
+font_small      = 11
+font_tiny       = 10
+font_section    = 12
+icon_box        = 44
+font_family     = "JetBrainsMono Nerd Font"
+font_family_mono = "JetBrainsMono Nerd Font"
+font_family_bar = "JetBrainsMono Nerd Font"
+
+[opacity.dark]
+bg              = 0.70   # mica blur
+bg_container    = 0.82
+bg_widget       = 0.55
+bg_popup        = 0.68
+bg_elevated     = 0.45
+border          = 0.35
+input           = 0.55
+section         = 0.35
+hover           = 0.09
+selected        = 0.16
+fg_strong       = 1.00
+fg_normal       = 0.78
+fg_muted        = 0.58
+fg_dim          = 0.42
+fg_faint        = 0.32
+shadow          = 0.45
+
+[opacity.light]
+bg              = 0.82
+bg_container    = 0.92
+bg_widget       = 0.75
+bg_popup        = 0.85
+bg_elevated     = 0.65
+border          = 0.42
+input           = 0.78
+section         = 0.55
+hover           = 0.12
+selected        = 0.22
+fg_strong       = 1.00
+fg_normal       = 0.85
+fg_muted        = 0.65
+fg_dim          = 0.50
+fg_faint        = 0.38
+shadow          = 0.22
+
+[layer]
+ags-bar             = 0.3
+cliphist-gui        = 0.4
+launch-gui          = 0.3
+rust-widgets        = 0.05
+rust-widgets-popup  = 0.075

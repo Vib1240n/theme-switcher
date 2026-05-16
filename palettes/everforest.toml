@@ -1,0 +1,25 @@
+[meta]
+name = "everforest-dark"
+dark = true
+
+[color]
+bg          = "#2d353b"
+bg_elevated = "#374145"
+bg_critical = "#3d2329"
+
+fg          = "#d3c6aa"
+fg_pure     = "#fff9e8"
+
+border      = "#4f585e"
+shadow      = "#000000"
+
+accent      = "#a7c080"
+
+red         = "#e67e80"
+yellow      = "#dbbc7f"
+green       = "#a7c080"
+blue        = "#7fbbb3"
+
+vim_normal  = "#7fbbb3"
+vim_insert  = "#a7c080"
+vim_bg      = "#2d353b"

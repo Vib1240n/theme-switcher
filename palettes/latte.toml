@@ -1,0 +1,25 @@
+[meta]
+name = "catppuccin-latte"
+dark = false
+
+[color]
+bg          = "#eff1f5"
+bg_elevated = "#e6e9ef"
+bg_critical = "#f5d8dc"
+
+fg          = "#4c4f69"
+fg_pure     = "#000000"
+
+border      = "#bcc0cc"
+shadow      = "#000000"
+
+accent      = "#1e66f5"
+
+red         = "#d20f39"
+yellow      = "#df8e1d"
+green       = "#40a02b"
+blue        = "#04a5e5"
+
+vim_normal  = "#1e66f5"
+vim_insert  = "#40a02b"
+vim_bg      = "#eff1f5"

@@ -1,0 +1,25 @@
+[meta]
+name = "tokyonight"
+dark = true
+
+[color]
+bg          = "#1a1b26"
+bg_elevated = "#24283b"
+bg_critical = "#3d1f2a"
+
+fg          = "#c0caf5"
+fg_pure     = "#ffffff"
+
+border      = "#414868"
+shadow      = "#000000"
+
+accent      = "#7aa2f7"
+
+red         = "#f7768e"
+yellow      = "#e0af68"
+green       = "#9ece6a"
+blue        = "#7dcfff"
+
+vim_normal  = "#7aa2f7"
+vim_insert  = "#9ece6a"
+vim_bg      = "#1a1b26"

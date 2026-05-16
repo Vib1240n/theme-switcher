@@ -1,0 +1,69 @@
+[meta]
+name = "kde-breeze"
+
+[radius]
+container       = 6
+container_pill  = 14
+section         = 4
+card            = 4
+row             = 3
+input           = 4
+icon            = 3
+badge           = 2
+small           = 2
+circle          = 50
+
+[sizing]
+border_width    = 1
+font_base       = 13
+font_bar        = 14
+font_small      = 11
+font_tiny       = 10
+font_section    = 12
+icon_box        = 44
+font_family     = "JetBrainsMono Nerd Font"
+font_family_mono = "JetBrainsMono Nerd Font"
+font_family_bar = "JetBrainsMono Nerd Font"
+
+[opacity.dark]
+bg              = 0.92
+bg_container    = 0.95
+bg_widget       = 0.88
+bg_popup        = 0.90
+bg_elevated     = 0.55
+border          = 0.40
+input           = 0.65
+section         = 0.45
+hover           = 0.10
+selected        = 0.20
+fg_strong       = 1.00
+fg_normal       = 0.80
+fg_muted        = 0.62
+fg_dim          = 0.45
+fg_faint        = 0.32
+shadow          = 0.35
+
+[opacity.light]
+bg              = 0.96
+bg_container    = 0.99
+bg_widget       = 0.93
+bg_popup        = 0.95
+bg_elevated     = 0.78
+border          = 0.50
+input           = 0.85
+section         = 0.65
+hover           = 0.14
+selected        = 0.25
+fg_strong       = 1.00
+fg_normal       = 0.88
+fg_muted        = 0.68
+fg_dim          = 0.52
+fg_faint        = 0.40
+shadow          = 0.20
+
+[layer]
+ags-bar             = 0.85
+cliphist-gui        = 0.85
+launch-gui          = 0.85
+rust-widgets        = 0.85
+rust-widgets-popup  = 0.85

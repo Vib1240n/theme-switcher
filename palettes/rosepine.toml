@@ -1,0 +1,25 @@
+[meta]
+name = "rose-pine"
+dark = true
+
+[color]
+bg          = "#191724"
+bg_elevated = "#26233a"
+bg_critical = "#3d1f2a"
+
+fg          = "#e0def4"
+fg_pure     = "#ffffff"
+
+border      = "#403d52"
+shadow      = "#000000"
+
+accent      = "#c4a7e7"
+
+red         = "#eb6f92"
+yellow      = "#f6c177"
+green       = "#9ccfd8"
+blue        = "#31748f"
+
+vim_normal  = "#c4a7e7"
+vim_insert  = "#9ccfd8"
+vim_bg      = "#191724"

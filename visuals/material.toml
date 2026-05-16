@@ -1,0 +1,69 @@
+[meta]
+name = "material"
+
+[radius]
+container       = 16
+container_pill  = 28
+section         = 16
+card            = 12
+row             = 12
+input           = 4
+icon            = 8
+badge           = 4
+small           = 2
+circle          = 50
+
+[sizing]
+border_width    = 0
+font_base       = 14
+font_bar        = 16
+font_small      = 11
+font_tiny       = 10
+font_section    = 12
+icon_box        = 48
+font_family     = "JetBrainsMono Nerd Font"
+font_family_mono = "JetBrainsMono Nerd Font"
+font_family_bar = "JetBrainsMono Nerd Font"
+
+[opacity.dark]
+bg              = 0.95
+bg_container    = 0.97
+bg_widget       = 0.92
+bg_popup        = 0.95
+bg_elevated     = 0.60
+border          = 0.00
+input           = 0.55
+section         = 0.45
+hover           = 0.10
+selected        = 0.18
+fg_strong       = 1.00
+fg_normal       = 0.78
+fg_muted        = 0.60
+fg_dim          = 0.42
+fg_faint        = 0.32
+shadow          = 0.50
+
+[opacity.light]
+bg              = 0.98
+bg_container    = 0.99
+bg_widget       = 0.94
+bg_popup        = 0.96
+bg_elevated     = 0.75
+border          = 0.00
+input           = 0.82
+section         = 0.65
+hover           = 0.14
+selected        = 0.24
+fg_strong       = 1.00
+fg_normal       = 0.85
+fg_muted        = 0.65
+fg_dim          = 0.50
+fg_faint        = 0.38
+shadow          = 0.25
+
+[layer]
+ags-bar             = 0.85
+cliphist-gui        = 0.85
+launch-gui          = 0.85
+rust-widgets        = 0.85
+rust-widgets-popup  = 0.85

@@ -1,0 +1,31 @@
+[meta]
+name = "catppuccin-mocha"
+dark = true
+
+[color]
+# Surfaces (darkest -> lightest)
+bg          = "#1e1e2e"
+bg_elevated = "#313244"
+bg_critical = "#3c1e26"
+
+# Foregrounds
+fg          = "#cdd6f4"
+fg_pure     = "#ffffff"
+
+# Structure
+border      = "#45475a"
+shadow      = "#000000"
+
+# Accent
+accent      = "#89b4fa"
+
+# Semantic
+red         = "#f38ba8"
+yellow      = "#f9e2af"
+green       = "#a6e3a2"
+blue        = "#74c7ec"
+
+# Vim mode indicators
+vim_normal  = "#89b4fa"
+vim_insert  = "#a6e3a2"
+vim_bg      = "#1e1e2e"

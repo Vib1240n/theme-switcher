@@ -1,0 +1,25 @@
+[meta]
+name = "dracula"
+dark = true
+
+[color]
+bg          = "#282a36"
+bg_elevated = "#44475a"
+bg_critical = "#3d2329"
+
+fg          = "#f8f8f2"
+fg_pure     = "#ffffff"
+
+border      = "#6272a4"
+shadow      = "#000000"
+
+accent      = "#bd93f9"
+
+red         = "#ff5555"
+yellow      = "#f1fa8c"
+green       = "#50fa7b"
+blue        = "#8be9fd"
+
+vim_normal  = "#bd93f9"
+vim_insert  = "#50fa7b"
+vim_bg      = "#282a36"

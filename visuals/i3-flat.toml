@@ -1,0 +1,69 @@
+[meta]
+name = "i3-flat"
+
+[radius]
+container       = 0
+container_pill  = 0
+section         = 0
+card            = 0
+row             = 0
+input           = 0
+icon            = 0
+badge           = 0
+small           = 0
+circle          = 0
+
+[sizing]
+border_width    = 2
+font_base       = 13
+font_bar        = 13
+font_small      = 11
+font_tiny       = 10
+font_section    = 11
+icon_box        = 40
+font_family     = "JetBrainsMono Nerd Font"
+font_family_mono = "JetBrainsMono Nerd Font"
+font_family_bar = "JetBrainsMono Nerd Font"
+
+[opacity.dark]
+bg              = 0.95
+bg_container    = 0.98
+bg_widget       = 0.92
+bg_popup        = 0.95
+bg_elevated     = 0.70
+border          = 0.80
+input           = 0.85
+section         = 0.60
+hover           = 0.15
+selected        = 0.30
+fg_strong       = 1.00
+fg_normal       = 0.85
+fg_muted        = 0.65
+fg_dim          = 0.50
+fg_faint        = 0.35
+shadow          = 0.00
+
+[opacity.light]
+bg              = 0.98
+bg_container    = 1.00
+bg_widget       = 0.96
+bg_popup        = 0.98
+bg_elevated     = 0.85
+border          = 0.85
+input           = 0.92
+section         = 0.75
+hover           = 0.18
+selected        = 0.32
+fg_strong       = 1.00
+fg_normal       = 0.90
+fg_muted        = 0.70
+fg_dim          = 0.55
+fg_faint        = 0.42
+shadow          = 0.00
+
+[layer]
+ags-bar             = 0.95
+cliphist-gui        = 0.95
+launch-gui          = 0.95
+rust-widgets        = 0.95
+rust-widgets-popup  = 0.95

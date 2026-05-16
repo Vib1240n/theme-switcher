@@ -1,0 +1,69 @@
+[meta]
+name = "gnome-adwaita"
+
+[radius]
+container       = 12
+container_pill  = 24
+section         = 12
+card            = 12
+row             = 9
+input           = 9
+icon            = 9
+badge           = 5
+small           = 3
+circle          = 50
+
+[sizing]
+border_width    = 1
+font_base       = 14
+font_bar        = 14
+font_small      = 11
+font_tiny       = 10
+font_section    = 12
+icon_box        = 44
+font_family     = "JetBrainsMono Nerd Font"
+font_family_mono = "JetBrainsMono Nerd Font"
+font_family_bar = "JetBrainsMono Nerd Font"
+
+[opacity.dark]
+bg              = 0.90
+bg_container    = 0.94
+bg_widget       = 0.85
+bg_popup        = 0.90
+bg_elevated     = 0.50
+border          = 0.25
+input           = 0.55
+section         = 0.40
+hover           = 0.08
+selected        = 0.18
+fg_strong       = 1.00
+fg_normal       = 0.78
+fg_muted        = 0.58
+fg_dim          = 0.42
+fg_faint        = 0.32
+shadow          = 0.40
+
+[opacity.light]
+bg              = 0.96
+bg_container    = 0.99
+bg_widget       = 0.92
+bg_popup        = 0.95
+bg_elevated     = 0.72
+border          = 0.35
+input           = 0.80
+section         = 0.60
+hover           = 0.12
+selected        = 0.22
+fg_strong       = 1.00
+fg_normal       = 0.85
+fg_muted        = 0.65
+fg_dim          = 0.50
+fg_faint        = 0.38
+shadow          = 0.22
+
+[layer]
+ags-bar             = 0.5
+cliphist-gui        = 0.6
+launch-gui          = 0.5
+rust-widgets        = 0.1
+rust-widgets-popup  = 0.15
